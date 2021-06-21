@@ -3,11 +3,6 @@ from pprint import pprint
 from random import random
 from typing import Dict
 import socket
-import os
-
-import requests
-
-
 
 class SendPrice:
 
