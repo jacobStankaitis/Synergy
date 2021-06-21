@@ -4,7 +4,7 @@
 
 :electric_plug: Project submission for Syntropy Hackathon(https://github.com/SyntropyNet/hackathon) IoT track
 
-:zap: With Syenergy one can connect power grids producers and consumers more efficiently
+:zap: With Synergy one can connect power grids producers and consumers more efficiently
 
 # RaspberryPi
 
