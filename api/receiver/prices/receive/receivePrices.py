@@ -1,0 +1,1 @@
+#TODO  receive prices via WebSockets and choose the cheapest one according to distance from factory and receiving party.

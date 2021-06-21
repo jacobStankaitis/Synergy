@@ -1,7 +1,7 @@
 import json
 from pprint import pprint
 from random import random
-from typing import Dict
+from typing import Dict, Union
 import socket
 
 class SendPrice:
@@ -17,9 +17,10 @@ class SendPrice:
         prices["priceIncreasePer1000km"] = kilometerCharge
         prices["factoryLon"] = 43
         prices["factoryLat"] = 42
+        prices["providerName"] = "Name" + str(random())
         #self.__sendPricesToCustomer(customerDirection,prices, port)
 
-    def __generatePrices(self, base_price: float ) -> Dict[str, float]:
+    def __generatePrices(self, base_price: float ) -> Dict[str, Union[float, str] ]:
         price_of_electricity = {}
         for time in range(60*24):
             if time == 0:
